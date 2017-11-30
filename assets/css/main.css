@@ -1,0 +1,864 @@
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 5, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_reset.scss */
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #333333;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 12, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_reset.scss */
+a, .black_top input, .black_top .black_top__form .btn-flat {
+  text-decoration: none;
+  color: #333333;
+  outline: 0;
+}
+
+/* line 19, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_reset.scss */
+.btn {
+  margin: 0 !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+
+/* line 24, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_reset.scss */
+input[type=text].input-alternate:hover,
+input[type=text].input-alternate:focus {
+  box-shadow: none !important;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+ul {
+  padding-left: 0 !important;
+}
+
+/* line 5, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+input[type=date],
+input[type=datetime-local],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search-md],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+textarea.md-textarea {
+  box-sizing: border-box !important;
+}
+
+/* line 20, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.line_height1_2 {
+  line-height: 1.2 !important;
+}
+
+/* line 24, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.no-bd {
+  border: none !important;
+}
+
+/* line 29, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.mt-48 {
+  margin-top: 48px !important;
+}
+
+/* line 34, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_white {
+  background-color: #FFFFFF;
+}
+
+/* line 38, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_orange {
+  color: #FFFFFF;
+  background-color: #F64C1E;
+}
+
+/* line 43, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_red {
+  color: #FFFFFF;
+  background-color: #FC0018;
+}
+
+/* line 48, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_blue {
+  color: #FFFFFF;
+  background-color: #008DD2;
+}
+
+/* line 53, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_green {
+  color: #FFFFFF;
+  background-color: #80CD33;
+}
+
+/* line 58, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_purple {
+  color: #FFFFFF;
+  background-color: #896AC3;
+}
+
+/* line 63, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.bg_lemon {
+  color: #FFFFFF;
+  background-color: #EFC336;
+}
+
+/* line 69, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.pos-rel {
+  position: relative;
+}
+
+@font-face {
+  font-family: "BryantLight";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/Bryant/BryantLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BryantLightAlt";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/Bryant/BryantLightAlt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BryantRegular";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Bryant/BryantRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BryantRegularAlt";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Bryant/BryantRegularAlt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BryantMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Bryant/BryantMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BryantMediumAlt";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Bryant/BryantMediumAlt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BryantBoldAlt";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Bryant/BryantBoldAlt.ttf") format("truetype");
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top {
+  background: #333333;
+  color: #FFFFFF;
+}
+
+/* line 4, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top a, .black_top input, .black_top .black_top__form .btn-flat {
+  color: #FFFFFF !important;
+}
+
+/* line 8, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top li {
+  display: inline-block;
+}
+
+/* line 16, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top input {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* line 21, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__elements {
+  flex: 0 0 604px;
+  text-align: center;
+}
+
+/* line 24, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__elements .black_top__form {
+  border-left: 1px solid #484848;
+  border-right: 1px solid #484848;
+  flex: 0 0 40%;
+  padding: 5px 0;
+}
+
+/* line 30, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__elements .black_top__list {
+  display: flex;
+  flex: 0 0 60%;
+}
+
+/* line 34, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__elements .black_top__list li {
+  border-right: 1px solid #484848;
+  padding: 5px 0;
+}
+
+/* line 38, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__elements .black_top__list li:first-child {
+  flex: 0 0 40%;
+}
+
+/* line 41, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__elements .black_top__list li:last-child {
+  flex: 0 0 60%;
+}
+
+/* line 46, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__form {
+  position: relative;
+}
+
+/* line 48, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_black_top.scss */
+.black_top .black_top__form .btn-flat {
+  background: transparent;
+  background-color: transparent;
+  border: 0 !important;
+  height: 20px;
+  margin-top: -10px;
+  position: absolute;
+  padding: 0 !important;
+  right: 10px;
+  top: 50%;
+  width: 20px;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_navbar.scss */
+.navbar {
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 6, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_navbar.scss */
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #949494;
+  font-size: 14px !important;
+  padding: 30px 25px;
+  text-transform: uppercase;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_navbar.scss */
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  background-color: #80CD33 !important;
+  color: #FFFFFF;
+}
+
+/* line 2, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .owl-carousel__slide {
+  position: relative;
+}
+
+/* line 5, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  width: 100%;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .banner__heading {
+  left: 0px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 18, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .banner__heading h3 {
+  color: #737474;
+  font-size: 53px;
+  line-height: 50px;
+  margin: 0px 0px 10px;
+  font-family: inherit;
+}
+
+/* line 25, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .banner__heading h2 {
+  color: #80CD33;
+  font-size: 73px;
+  font-weight: 600;
+  font-family: inherit;
+  line-height: 70px;
+  margin: 0px 0px 10px;
+}
+
+/* line 33, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .banner__heading.banner__heading-top {
+  top: 5%;
+}
+
+/* line 36, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .banner__heading.banner__heading-middle {
+  top: 50%;
+  margin: -130px 0px 0px;
+}
+
+/* line 40, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_banner.scss */
+.banner .banner__heading.banner__heading-left {
+  top: 50%;
+  left: 50%;
+  width: 445px;
+  text-align: center;
+  margin: -130px 0px 0px -550px;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_card.scss */
+.card {
+  border-radius: 0 !important;
+}
+
+/* line 4, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_card.scss */
+.card.card__bg-orange {
+  color: #FFFFFF;
+  background: #F64C1E;
+}
+
+/* line 8, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_card.scss */
+.card.card__bg-green {
+  color: #FFFFFF;
+  background: #80CD33;
+}
+
+/* line 12, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_card.scss */
+.card.card__bg-red {
+  color: #FFFFFF;
+  background: #FC0018;
+}
+
+/* line 16, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_card.scss */
+.card.card__bg-blue {
+  color: #FFFFFF;
+  background: #008DD2;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_section-head.scss */
+.section-head {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 4, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_section-head.scss */
+.section-head .section-head__heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* line 8, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_section-head.scss */
+.section-head .section-head__paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/components/_section-head.scss */
+.section-head .section-head__block-span {
+  display: block;
+}
+
+/* line 5, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section {
+  padding: 60px 0;
+}
+
+/* line 8, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services {
+  position: relative;
+  padding: 0 !important;
+  top: -50px;
+  z-index: 10;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services .card {
+  position: relative;
+}
+
+/* line 16, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services .card-body {
+  padding: 40px 16px 15px 16px !important;
+}
+
+/* line 18, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services .card-body i[class*='icon-'] {
+  font-size: 60px;
+}
+
+/* line 21, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services .card-body h5 {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+/* line 26, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services .card-text {
+  color: #FFFFFF !important;
+}
+
+/* line 29, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.services .card__slot {
+  position: absolute;
+  padding: 15px;
+  bottom: -18px;
+  right: 16px;
+  box-shadow: -4px -4px 0 #FFFFFF;
+}
+
+/* line 41, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap [class*='icon-'] {
+  border-radius: 100%;
+  color: #FFFFFF;
+  float: left;
+  font-size: 40px;
+  padding: 10px;
+  position: relative;
+}
+
+/* line 50, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap [class*='icon-']:after {
+  content: '';
+  border: 2px dotted;
+  border-radius: 100%;
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  right: -5px;
+  left: -5px;
+}
+
+/* line 60, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap .bg_blue[class*='icon']:after {
+  border-color: #008DD2;
+}
+
+/* line 63, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap .bg_green[class*='icon']:after {
+  border-color: #80CD33;
+}
+
+/* line 66, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap .bg_orange[class*='icon']:after {
+  border-color: #F64C1E;
+}
+
+/* line 69, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap .bg_red[class*='icon']:after {
+  border-color: #FC0018;
+}
+
+/* line 72, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap .bg_lemon[class*='icon']:after {
+  border-color: #EFC336;
+}
+
+/* line 75, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__wrap .bg_purple[class*='icon']:after {
+  border-color: #896AC3;
+}
+
+/* line 79, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__description {
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+/* line 83, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.offer .offer__hr {
+  border: 0px;
+  background-color: #FC0018;
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  margin: 0px 0px 8px;
+  width: 35px;
+}
+
+/* line 94, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts {
+  background-image: url(../../assets/img/background/fact_figure_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFFFFF;
+  position: relative;
+}
+
+/* line 101, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts:before {
+  background-image: url(../../assets/img/background/testimonial-overlay.png);
+  background-repeat: repeat;
+  background-position: center;
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  opacity: 0.75;
+  width: 100%;
+}
+
+/* line 112, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts .facts__wrap {
+  margin-bottom: 17px;
+}
+
+/* line 115, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts .facts__counter {
+  font-size: 64px;
+  line-height: 50px;
+  min-width: 145px;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+/* line 122, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts .facts__subjects {
+  font-size: 16px;
+}
+
+/* line 125, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts .facts__border {
+  display: block;
+  width: 85px;
+  height: 3px;
+}
+
+/* line 130, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.facts .facts__link-wrap {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* line 137, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__tab-list {
+  display: flex;
+  list-style-type: none;
+}
+
+/* line 141, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__tab-list li a, section.courses .courses__tab-list li .black_top input, .black_top section.courses .courses__tab-list li input, section.courses .courses__tab-list li .black_top .black_top__form .btn-flat, .black_top .black_top__form section.courses .courses__tab-list li .btn-flat {
+  display: block;
+  color: #666666;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  background-color: #f1f1f1;
+  transition: all 0.3s ease;
+}
+
+/* line 148, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__tab-list li a.active, section.courses .courses__tab-list li .black_top input.active, .black_top section.courses .courses__tab-list li input.active, section.courses .courses__tab-list li .black_top .black_top__form .active.btn-flat, .black_top .black_top__form section.courses .courses__tab-list li .active.btn-flat, section.courses .courses__tab-list li a:hover, section.courses .courses__tab-list li .black_top input:hover, .black_top section.courses .courses__tab-list li input:hover, section.courses .courses__tab-list li .black_top .black_top__form .btn-flat:hover, .black_top .black_top__form section.courses .courses__tab-list li .btn-flat:hover {
+  background-color: #80CD33;
+  color: #FFFFFF;
+}
+
+/* line 156, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__search-form {
+  position: relative;
+}
+
+/* line 158, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__search-form input[type="search"] {
+  background-color: #f1f1f1;
+  border: 0px;
+  box-shadow: none !important;
+  height: 42px;
+  padding: 8px 115px 8px 15px;
+  width: 100%;
+}
+
+/* line 166, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__search-form .btn.btn-brand {
+  border-radius: 0 !important;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 0px;
+  transition: all ease 0.3s;
+}
+
+/* line 173, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__search-form .btn.btn-brand:before {
+  background-color: #80CD33;
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -7px;
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+  transition: all ease 0.3s;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+/* line 186, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__search-form .btn.btn-brand:hover {
+  background-color: #333333 !important;
+}
+
+/* line 188, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__search-form .btn.btn-brand:hover:before {
+  background-color: #333333 !important;
+}
+
+/* line 194, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__row {
+  margin: 0 !important;
+}
+
+/* line 198, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__wrap {
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+}
+
+/* line 202, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__thumbnail {
+  position: relative;
+  margin-bottom: 0;
+}
+
+/* line 205, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 210, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__description {
+  padding: 25px 20px;
+}
+
+/* line 212, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__description:before, section.courses .courses__description:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+/* line 218, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__price {
+  background-color: #4d4d4d;
+  border-radius: 100%;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 70px;
+  position: absolute;
+  height: 70px;
+  bottom: -31px;
+  right: 15px;
+  text-align: center;
+  overflow: hidden;
+  width: 70px;
+  z-index: 5;
+}
+
+/* line 233, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category {
+  color: #fff;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  top: 30px;
+  position: absolute;
+  right: -10px;
+}
+
+/* line 240, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category:before {
+  border-style: solid;
+  border-width: 10px 0 0 10px;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  width: 0;
+}
+
+/* line 250, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category.courses__category-blue {
+  background: #008DD2;
+}
+
+/* line 252, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category.courses__category-blue:before {
+  border-color: transparent transparent transparent #008DD2;
+}
+
+/* line 256, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category.courses__category-orange {
+  background: #F64C1E;
+}
+
+/* line 258, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category.courses__category-orange:before {
+  border-color: transparent transparent transparent #F64C1E;
+}
+
+/* line 262, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category.courses__category-red {
+  background: #FC0018;
+}
+
+/* line 264, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__category.courses__category-red:before {
+  border-color: transparent transparent transparent #FC0018;
+}
+
+/* line 269, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__author {
+  float: left;
+  width: 70%;
+}
+
+/* line 272, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__author figure {
+  float: left;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 0 !important;
+}
+
+/* line 278, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__author .courses__author-description {
+  padding-left: 55px;
+}
+
+/* line 282, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_main.scss */
+section.courses .courses__apply {
+  float: left;
+  width: 30%;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer {
+  margin-top: 8px;
+}
+
+/* line 3, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .newsletter {
+  background: #80CD33;
+  padding: 20px 0px;
+}
+
+/* line 7, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .newsletter__form {
+  display: flex;
+}
+
+/* line 9, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .newsletter__form input[type='text'] {
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: none !important;
+  color: #FFFFFF;
+  height: 44px;
+  padding: 8px 15px;
+  margin-right: 20px;
+  width: calc(100% - 178px);
+}
+
+/* line 19, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .newsletter__form button {
+  height: 44px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 29, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .footer_details {
+  background-image: url(../../assets/img/general/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* line 35, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .footer_details:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* line 43, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .footer_details .widget {
+  background-color: #191919;
+  padding: 40px 20px 50px;
+  margin: -85px 0px 0px;
+}
+
+/* line 49, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .copyright {
+  background-color: #191919;
+  padding: 20px 0px;
+}
+
+/* line 55, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.back-to-top {
+  bottom: 20px;
+  background-color: #80CD33;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  right: 20px;
+  position: fixed;
+  width: 40px;
+}
+
+/* line 65, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.back-to-top a, .back-to-top .black_top input, .black_top .back-to-top input, .back-to-top .black_top .black_top__form .btn-flat, .black_top .black_top__form .back-to-top .btn-flat {
+  color: #FFFFFF;
+}
+
+/* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/modules/_buttons.scss */
+.btn-brand {
+  background-color: #80CD33 !important;
+}
+
+/* line 4, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/modules/_buttons.scss */
+.btn-outline-dark {
+  border: 2px solid #333333;
+  color: #333333 !important;
+  background-color: transparent;
+}
+
+/* line 10, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/modules/_buttons.scss */
+.btn-outline-dark:hover {
+  border: 2px solid #FC0018;
+  color: #FC0018 !important;
+  background-color: transparent !important;
+}
+
+/*# sourceMappingURL=../css/main.map */

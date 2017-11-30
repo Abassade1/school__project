@@ -1,0 +1,14 @@
+.btn-brand{
+    background-color: $brand-green !important; 
+}
+.btn-outline-dark {
+    border: 2px solid $brand-dark;
+    color: $brand-dark !important;
+    background-color: transparent;
+}
+
+.btn-outline-dark:hover{
+    border: 2px solid $brand-red;
+    color: $brand-red !important;
+    background-color: transparent !important;
+}

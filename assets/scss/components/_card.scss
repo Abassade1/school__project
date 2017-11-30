@@ -1,0 +1,21 @@
+.card{
+    border-radius: 0 !important;
+    
+    &.card__bg-orange{
+        color: $brand-white;
+        background: $brand-orange;
+    }
+    &.card__bg-green{
+        color: $brand-white;
+        background: $brand-green;
+    }
+    &.card__bg-red{
+        color: $brand-white;
+        background: $brand-red;
+    }
+    &.card__bg-blue{
+        color: $brand-white;
+        background: $brand-blue;
+    }
+    
+}

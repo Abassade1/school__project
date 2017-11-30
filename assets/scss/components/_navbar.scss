@@ -1,0 +1,16 @@
+.navbar{
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #949494;
+    font-size: 14px !important;
+    padding: 30px 25px;
+    text-transform: uppercase;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+    background-color: $brand-green !important;
+    color: $brand-white;
+}

@@ -1,0 +1,27 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  color: $brand-dark;
+  text-rendering: optimizeLegibility; 
+}
+
+a{
+	text-decoration: none;
+	color: $brand-dark;
+	outline: 0;
+}
+
+
+.btn{
+  margin: 0 !important;
+  box-shadow: none !important;
+  text-transform: capitalize !important;
+}
+input[type=text].input-alternate:hover,
+input[type=text].input-alternate:focus{
+  box-shadow: none !important;
+}

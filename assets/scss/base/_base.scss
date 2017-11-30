@@ -1,0 +1,71 @@
+ul{
+    padding-left: 0 !important;
+}
+
+input[type=date],
+input[type=datetime-local], 
+input[type=email], 
+input[type=number], 
+input[type=password], 
+input[type=search-md], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=time], 
+input[type=url], 
+textarea.md-textarea{
+    box-sizing: border-box !important;
+}
+
+.line_height1_2{
+    line-height: 1.2 !important;
+}
+
+.no-bd{
+    border: none !important;
+}
+
+// 
+.mt-48{
+    margin-top: 48px !important; 
+}
+
+// BACKGROUNDS COLORS
+.bg_white{
+    background-color: $brand-white;
+}
+
+.bg_orange{
+    color: $brand-white;
+    background-color: $brand-orange;
+}
+
+.bg_red{
+    color: $brand-white;
+    background-color: $brand-red;
+}
+
+.bg_blue{
+    color: $brand-white;
+    background-color: $brand-blue;
+}
+
+.bg_green{
+    color: $brand-white;
+    background-color: $brand-green;
+}
+
+.bg_purple{
+    color: $brand-white;
+    background-color: $brand-purple;
+}
+
+.bg_lemon{
+    color: $brand-white;
+    background-color: $brand-lemon;
+}
+
+//POSITIONING
+.pos-rel{
+    position: relative;
+}
