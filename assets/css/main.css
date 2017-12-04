@@ -63,52 +63,62 @@ textarea.md-textarea {
 }
 
 /* line 29, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 33, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* line 36, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .mt-48 {
   margin-top: 48px !important;
 }
 
-/* line 34, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 41, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_white {
   background-color: #FFFFFF;
 }
 
-/* line 38, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 45, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_orange {
   color: #FFFFFF;
   background-color: #F64C1E;
 }
 
-/* line 43, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 50, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_red {
   color: #FFFFFF;
   background-color: #FC0018;
 }
 
-/* line 48, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 55, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_blue {
   color: #FFFFFF;
   background-color: #008DD2;
 }
 
-/* line 53, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 60, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_green {
   color: #FFFFFF;
   background-color: #80CD33;
 }
 
-/* line 58, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 65, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_purple {
   color: #FFFFFF;
   background-color: #896AC3;
 }
 
-/* line 63, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 70, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .bg_lemon {
   color: #FFFFFF;
   background-color: #EFC336;
 }
 
-/* line 69, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
+/* line 76, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/base/_base.scss */
 .pos-rel {
   position: relative;
 }
@@ -758,21 +768,47 @@ section.courses .courses__apply {
 /* line 1, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
 footer {
   margin-top: 8px;
+  color: #FFFFFF;
 }
 
-/* line 3, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .newsletter {
+/* line 4, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 9, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer a, footer .black_top input, .black_top footer input, footer .black_top .black_top__form .btn-flat, .black_top .black_top__form footer .btn-flat {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* line 13, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer a:hover, footer .black_top input:hover, .black_top footer input:hover, footer .black_top .black_top__form .btn-flat:hover, .black_top .black_top__form footer .btn-flat:hover {
+  color: #80CD33;
+}
+
+/* line 18, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+footer .copyright {
+  background-color: #191919;
+  padding: 20px 0px;
+}
+
+/* line 24, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.newsletter {
   background: #80CD33;
   padding: 20px 0px;
 }
 
-/* line 7, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .newsletter__form {
+/* line 28, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.newsletter__form {
   display: flex;
 }
 
-/* line 9, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .newsletter__form input[type='text'] {
+/* line 30, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.newsletter__form input[type='text'] {
   background-color: transparent;
   border: 1px solid #fff;
   box-shadow: none !important;
@@ -783,8 +819,13 @@ footer .newsletter__form input[type='text'] {
   width: calc(100% - 178px);
 }
 
-/* line 19, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .newsletter__form button {
+/* line 39, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.newsletter__form input[type='text']:focus, .newsletter__form input[type='text']:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+/* line 43, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.newsletter__form button {
   height: 44px;
   background-color: transparent;
   border: 1px solid #fff;
@@ -793,8 +834,8 @@ footer .newsletter__form button {
   text-transform: uppercase;
 }
 
-/* line 29, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .footer_details {
+/* line 53, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details {
   background-image: url(../../assets/img/general/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -802,8 +843,8 @@ footer .footer_details {
   position: relative;
 }
 
-/* line 35, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .footer_details:before {
+/* line 59, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details:before {
   content: "";
   position: absolute;
   top: 0px;
@@ -812,20 +853,122 @@ footer .footer_details:before {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* line 43, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .footer_details .widget {
+/* line 68, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details__heading {
+  color: #80CD33;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0px 0px 30px;
+}
+
+/* line 77, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget {
   background-color: #191919;
-  padding: 40px 20px 50px;
+  color: #727272;
+  padding: 40px 20px 80px;
   margin: -85px 0px 0px;
+  position: relative;
 }
 
-/* line 49, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
-footer .copyright {
-  background-color: #191919;
-  padding: 20px 0px;
+/* line 83, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget:before {
+  background: #80CD33;
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 0px;
+  width: 100%;
+  height: 7px;
 }
 
-/* line 55, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+/* line 94, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget__office_time li {
+  width: 100%;
+  position: relative;
+  margin: 0px 0px 10px;
+  text-align: left;
+}
+
+/* line 102, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget__about p {
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 109, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget__icons {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* line 114, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget__icons li a, .widget__icons li .black_top input, .black_top .widget__icons li input, .widget__icons li .black_top .black_top__form .btn-flat, .black_top .black_top__form .widget__icons li .btn-flat {
+  display: block;
+  width: 33px;
+  height: 33px;
+  background-color: #1e1e1e;
+  color: #727272;
+  line-height: 33px;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+/* line 123, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.widget__icons li a:hover, .widget__icons li .black_top input:hover, .black_top .widget__icons li input:hover, .widget__icons li .black_top .black_top__form .btn-flat:hover, .black_top .black_top__form .widget__icons li .btn-flat:hover {
+  background-color: #80CD33;
+  color: #FFFFFF;
+}
+
+/* line 130, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details___outer_wrap {
+  padding: 70px 0px;
+}
+
+/* line 134, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details__news_content {
+  padding-left: 15px;
+}
+
+/* line 136, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details__news_content a, .footer_details__news_content .black_top input, .black_top .footer_details__news_content input, .footer_details__news_content .black_top .black_top__form .btn-flat, .black_top .black_top__form .footer_details__news_content .btn-flat {
+  display: block;
+  margin: -4px 0px 15px;
+}
+
+/* line 140, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details__news_content li {
+  font-size: 14px;
+}
+
+/* line 146, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details___recent_projects ul {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* line 150, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details___recent_projects li {
+  flex: 0 0 calc(100% / 3);
+  margin-bottom: 15px;
+}
+
+/* line 157, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details___contact_info li {
+  margin-bottom: 15px;
+}
+
+/* line 160, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+.footer_details___contact_info i {
+  margin-right: 15px;
+}
+
+/* line 166, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
 .back-to-top {
   bottom: 20px;
   background-color: #80CD33;
@@ -837,7 +980,7 @@ footer .copyright {
   width: 40px;
 }
 
-/* line 65, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
+/* line 175, C:/Users/USER/Documents/Repos/school_group_project/assets/scss/layout/_footer.scss */
 .back-to-top a, .back-to-top .black_top input, .black_top .back-to-top input, .back-to-top .black_top .black_top__form .btn-flat, .black_top .black_top__form .back-to-top .btn-flat {
   color: #FFFFFF;
 }
